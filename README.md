@@ -1,14 +1,14 @@
 # raytracing
-ray tracer implementation in C.
+Ray tracer implementation in C.  
 Ray tracing is a fundamental rendering algorithm. It is commonly used for animations and archi- tectural simulations, in which the quality of the created images is more important than the time it takes to create them. Here I implemented a basic ray tracer that simulates the propagation of light in real world.
 # How to run
-Navigate to the source directory and run the following command in your terminal:
-$make
-After the code has been compiled, run your executable via command:
-$./raytracer ../sample_scenes_v4/inputs/bunny.xml
-The executable takes XML scene file as an argument, e.g bunny.xml
-Note that bunny.xml is one of the sample input files and it is given as an example
-The resulting image will be saved in the source folder in the PPM format
+Navigate to the source directory and run the following command in your terminal:  
+$make  
+After the code has been compiled, run your executable via command:  
+$./raytracer ../sample_scenes_v4/inputs/bunny.xml  
+The executable takes XML scene file as an argument, e.g bunny.xml  
+Note that bunny.xml is one of the sample input files and it is given as an example  
+The resulting image will be saved in the source folder in the PPM format  
 # Specifications and details
 - The scene file may contain multiple camera configurations. The raytracer renders as many images as the number of cameras.
 - Used Blinn-Phong shading model for the specular shading computations.
